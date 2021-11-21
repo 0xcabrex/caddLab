@@ -30,6 +30,6 @@ Repository of projects needed for the lab record.
 
 The names are in the order in which they have been written in the lab record.
 
-The necessary printouts are present in the printouts folder.
+The necessary printouts are present in the [printouts](https://github.com/0xcabrex/caddLab/tree/master/printouts) folder.
 
 [Download](https://www.xilinx.com/support/download.html) XILINX Vivado here

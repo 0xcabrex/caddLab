@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1631503419">
+  <File Type="ROUTE-PWR" Name="demux_1x4_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="demux_1x4.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="demux_1x4_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="demux_1x4_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="demux_1x4.msk"/>
+  <File Type="ROUTE-CLK" Name="demux_1x4_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="demux_1x4.vdi"/>
+  <File Type="BG-BIT" Name="demux_1x4.bit"/>
+  <File Type="BG-DRC" Name="demux_1x4.drc"/>
+  <File Type="BG-BGN" Name="demux_1x4.bgn"/>
+  <File Type="BG-BIN" Name="demux_1x4.bin"/>
+  <File Type="BITSTR-RBT" Name="demux_1x4.rbt"/>
+  <File Type="BITSTR-NKY" Name="demux_1x4.nky"/>
+  <File Type="BITSTR-BMM" Name="demux_1x4_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="demux_1x4.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="demux_1x4_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="demux_1x4.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="demux_1x4.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="demux_1x4_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="demux_1x4.hwdef"/>
+  <File Type="PLACE-IO" Name="demux_1x4_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="demux_1x4_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="demux_1x4_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="demux_1x4_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="demux_1x4_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="demux_1x4_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="demux_1x4_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="demux_1x4_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="demux_1x4_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="demux_1x4_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="demux_1x4_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="demux_1x4_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="demux_1x4_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="demux_1x4_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="demux_1x4_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="demux_1x4_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="demux_1x4_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="demux_1x4_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="demux_1x4_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="demux_1x4_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="demux_1x4_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="demux_1x4_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="demux_1x4_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="demux_1x4_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="demux_1x4_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="demux_1x4_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="demux_1x4_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="demux_1x4_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="demux_1x4_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="demux_1x4.pdi"/>
+  <File Type="RCFI_FILE" Name="demux_1x4.rcfi"/>
+  <File Type="CFI_FILE" Name="demux_1x4.cfi"/>
+  <File Type="RNPI_FILE" Name="demux_1x4.rnpi"/>
+  <File Type="NPI_FILE" Name="demux_1x4.npi"/>
+  <File Type="RBD_FILE" Name="demux_1x4.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/demux_1x4.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="demux_1x4"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/demux_1x4_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/demux_1x4_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

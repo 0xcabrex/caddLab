@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov 16 12:58:47 2021
+# Process ID: 18568
+# Current directory: D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21508 D:\XILINX\vivado projects\One_Hot_State_Encoding_Moore_Sequence_Detector\One_Hot_State_Encoding_Moore_Sequence_Detector.xpr
+# Log file: D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/vivado.log
+# Journal file: D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+                   0rst=1 in_seq=0 out=0
+                   4rst=0 in_seq=0 out=0
+                  20rst=0 in_seq=1 out=0
+                  30rst=0 in_seq=0 out=0
+                  50rst=0 in_seq=1 out=0
+                  60rst=0 in_seq=0 out=0
+                  70rst=0 in_seq=1 out=0
+                  80rst=0 in_seq=0 out=0
+                  85rst=0 in_seq=0 out=1
+$finish called at time : 90 ns : File "D:/XILINX/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.srcs/sim_1/new/moore_seq_det_ap_tb.v" Line 45

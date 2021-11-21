@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 21 13:01:02 2021
+# Process ID: 21336
+# Current directory: C:/Users/asvam/vivado projects/synchronous_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3084 C:\Users\asvam\vivado projects\synchronous_counter\synchronous_counter.xpr
+# Log file: C:/Users/asvam/vivado projects/synchronous_counter/vivado.log
+# Journal file: C:/Users/asvam/vivado projects/synchronous_counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/asvam/vivado projects/synchronous_counter/synchronous_counter.xpr}
+launch_simulation
+source Synchronous_counter_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source Synchronous_counter_tb.tcl
+close_sim

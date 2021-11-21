@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Sep 21 20:42:50 2021
+# Process ID: 16680
+# Current directory: C:/Users/asvam/vivado projects/bin_to_dec/bin_to_dec.runs/impl_1
+# Command line: vivado.exe -log bin_to_dec.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bin_to_dec.tcl -notrace
+# Log file: C:/Users/asvam/vivado projects/bin_to_dec/bin_to_dec.runs/impl_1/bin_to_dec.vdi
+# Journal file: C:/Users/asvam/vivado projects/bin_to_dec/bin_to_dec.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source bin_to_dec.tcl -notrace

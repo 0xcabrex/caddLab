@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 14 22:46:32 2021
+# Process ID: 7940
+# Current directory: D:/XILINX/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.runs/synth_1
+# Command line: vivado.exe -log moore_seq_det_ap.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source moore_seq_det_ap.tcl
+# Log file: D:/XILINX/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.runs/synth_1/moore_seq_det_ap.vds
+# Journal file: D:/XILINX/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source moore_seq_det_ap.tcl -notrace

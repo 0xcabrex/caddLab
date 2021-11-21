@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 01:03:00 2021
+# Process ID: 10116
+# Current directory: D:/XILINX/vivado projects/Array_Multiplier_ap
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7804 D:\XILINX\vivado projects\Array_Multiplier_ap\Array_Multiplier_ap.xpr
+# Log file: D:/XILINX/vivado projects/Array_Multiplier_ap/vivado.log
+# Journal file: D:/XILINX/vivado projects/Array_Multiplier_ap\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+IINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2021.1/data/ip'.oopen_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:47 . Memory (MB): peak = 1526.238 ; gain = 0.000update_compile_order -fileset sources_1
+eexit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 15 01:28:41 2021...

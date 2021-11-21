@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 01:03:00 2021
+# Process ID: 10116
+# Current directory: D:/XILINX/vivado projects/Array_Multiplier_ap
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7804 D:\XILINX\vivado projects\Array_Multiplier_ap\Array_Multiplier_ap.xpr
+# Log file: D:/XILINX/vivado projects/Array_Multiplier_ap/vivado.log
+# Journal file: D:/XILINX/vivado projects/Array_Multiplier_ap\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.xpr}
+update_compile_order -fileset sources_1
+

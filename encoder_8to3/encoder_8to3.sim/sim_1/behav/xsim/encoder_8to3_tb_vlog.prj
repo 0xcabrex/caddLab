@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../encoder_8to3.srcs/sources_1/new/encoder_8to3.sv" \
+
+verilog xil_defaultlib  \
+"../../../../encoder_8to3.srcs/sim_1/new/encoder_8to3_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

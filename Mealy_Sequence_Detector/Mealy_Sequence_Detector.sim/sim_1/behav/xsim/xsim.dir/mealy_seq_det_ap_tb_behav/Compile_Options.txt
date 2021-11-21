@@ -1,0 +1,1 @@
+-wto "00af49ccf57c41e6b245982f1cfe8181" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "mealy_seq_det_ap_tb_behav" "xil_defaultlib.mealy_seq_det_ap_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Array_Multiplier_ap.srcs/sources_1/new/arr_mul_ap.sv" \
+
+verilog xil_defaultlib  \
+"../../../../Array_Multiplier_ap.srcs/sim_1/new/arr_mul_ap_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

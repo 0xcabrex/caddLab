@@ -1,0 +1,1 @@
+-wto "b4b3417889124f5abdf6394111ceaff3" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "jkflipflip_tb_behav" "xil_defaultlib.jkflipflip_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

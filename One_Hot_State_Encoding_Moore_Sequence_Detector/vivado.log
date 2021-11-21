@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov 16 12:58:47 2021
+# Process ID: 18568
+# Current directory: D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21508 D:\XILINX\vivado projects\One_Hot_State_Encoding_Moore_Sequence_Detector\One_Hot_State_Encoding_Moore_Sequence_Detector.xpr
+# Log file: D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/vivado.log
+# Journal file: D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/XILINX/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1115.410 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 17 00:03:08 2021...

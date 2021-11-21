@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Sep 20 09:03:12 2021
+# Process ID: 16176
+# Current directory: C:/Users/asvam/vivado projects/full_adder/full_adder.runs/synth_1
+# Command line: vivado.exe -log full_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_adder.tcl
+# Log file: C:/Users/asvam/vivado projects/full_adder/full_adder.runs/synth_1/full_adder.vds
+# Journal file: C:/Users/asvam/vivado projects/full_adder/full_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source full_adder.tcl -notrace

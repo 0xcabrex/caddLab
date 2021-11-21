@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../PES1UG20EC002.srcs/sources_1/new/amogh.sv" \
+
+verilog xil_defaultlib  \
+"../../../../PES1UG20EC002.srcs/sim_1/new/amogh_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

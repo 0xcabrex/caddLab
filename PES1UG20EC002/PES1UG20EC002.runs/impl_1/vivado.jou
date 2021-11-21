@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Aug 30 23:39:24 2021
+# Process ID: 19172
+# Current directory: C:/Users/asvam/PES1UG20EC002/PES1UG20EC002.runs/impl_1
+# Command line: vivado.exe -log amogh.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source amogh.tcl -notrace
+# Log file: C:/Users/asvam/PES1UG20EC002/PES1UG20EC002.runs/impl_1/amogh.vdi
+# Journal file: C:/Users/asvam/PES1UG20EC002/PES1UG20EC002.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source amogh.tcl -notrace

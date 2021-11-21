@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Sep 13 08:54:29 2021
+# Process ID: 13412
+# Current directory: C:/Users/asvam/vivado projects/demux_1x4/demux_1x4.runs/impl_1
+# Command line: vivado.exe -log demux_1x4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source demux_1x4.tcl -notrace
+# Log file: C:/Users/asvam/vivado projects/demux_1x4/demux_1x4.runs/impl_1/demux_1x4.vdi
+# Journal file: C:/Users/asvam/vivado projects/demux_1x4/demux_1x4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source demux_1x4.tcl -notrace

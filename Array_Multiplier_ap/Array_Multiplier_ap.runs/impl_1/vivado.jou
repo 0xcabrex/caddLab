@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Nov 12 21:36:14 2021
+# Process ID: 23620
+# Current directory: D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.runs/impl_1
+# Command line: vivado.exe -log arr_mul_ap.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source arr_mul_ap.tcl -notrace
+# Log file: D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.runs/impl_1/arr_mul_ap.vdi
+# Journal file: D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source arr_mul_ap.tcl -notrace

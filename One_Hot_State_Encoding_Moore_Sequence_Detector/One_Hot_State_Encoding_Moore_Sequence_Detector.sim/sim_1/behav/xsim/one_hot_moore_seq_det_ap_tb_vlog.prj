@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../One_Hot_State_Encoding_Moore_Sequence_Detector.srcs/sources_1/new/one_hot_moore_seq_det_ap.sv" \
+
+verilog xil_defaultlib  \
+"../../../../One_Hot_State_Encoding_Moore_Sequence_Detector.srcs/sim_1/new/one_hot_moore_seq_det_ap_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

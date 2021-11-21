@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Sep 20 09:13:32 2021
+# Process ID: 15152
+# Current directory: C:/Users/asvam/vivado projects/decoder_3x8/decoder_3x8.runs/impl_1
+# Command line: vivado.exe -log decoder_3x8.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_3x8.tcl -notrace
+# Log file: C:/Users/asvam/vivado projects/decoder_3x8/decoder_3x8.runs/impl_1/decoder_3x8.vdi
+# Journal file: C:/Users/asvam/vivado projects/decoder_3x8/decoder_3x8.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder_3x8.tcl -notrace

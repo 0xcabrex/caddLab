@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Sep 28 08:59:29 2021
+# Process ID: 5468
+# Current directory: C:/Users/asvam/vivado projects/dlatch/dlatch.runs/synth_1
+# Command line: vivado.exe -log dlatch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dlatch.tcl
+# Log file: C:/Users/asvam/vivado projects/dlatch/dlatch.runs/synth_1/dlatch.vds
+# Journal file: C:/Users/asvam/vivado projects/dlatch/dlatch.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dlatch.tcl -notrace

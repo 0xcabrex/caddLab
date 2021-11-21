@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 21 09:24:44 2021
+# Process ID: 17268
+# Current directory: C:/Users/asvam/vivado projects/jkflipflop
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17136 C:\Users\asvam\vivado projects\jkflipflop\jkflipflop.xpr
+# Log file: C:/Users/asvam/vivado projects/jkflipflop/vivado.log
+# Journal file: C:/Users/asvam/vivado projects/jkflipflop\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/asvam/vivado projects/jkflipflop/jkflipflop.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source jkflipflip_tb.tcl
+close_sim
+close_project
+open_project {C:/Users/asvam/vivado projects/async_counter/async_counter.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source ripple_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+close_sim
+close_project
+open_project {C:/Users/asvam/vivado projects/synchronous_counter/synchronous_counter.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Synchronous_counter_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+close_sim
+close_project
+open_project {C:/Users/asvam/vivado projects/Accumulator_ap/Accumulator_ap.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source Accumulator_ap_tb.tcl
+close_sim
+launch_simulation
+source Accumulator_ap_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+close_sim
+close_project
+create_project {sequence counter} {C:/Users/asvam/vivado projects/sequence counter} -part xc7a35tcpg236-1
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sources_1/new
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sources_1/new
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sources_1/new
+file mkdir {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sources_1/new}
+close [ open {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sources_1/new/sequence_counter.sv} w ]
+add_files {{C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sources_1/new/sequence_counter.sv}}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new
+file mkdir {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new}
+close [ open {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new/sequence_counter_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/sim_1/new/sequence_counter_tb.v}}
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source sequence_counter_tb.tcl
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_design
+open_run impl_1
+set_property IOSTANDARD lvcmos33 [get_ports [list {out[3]} {out[2]} {out[1]} {out[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rstn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+place_ports {out[0]} L1
+place_ports {out[1]} P1
+place_ports {out[2]} N3
+place_ports {out[3]} P3
+place_ports clk W5
+place_ports rstn R2
+file mkdir {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/constrs_1/new}
+close [ open {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/constrs_1/new/sequence_counter_xdc.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/constrs_1/new/sequence_counter_xdc.xdc}}
+set_property target_constrs_file {C:/Users/asvam/vivado projects/sequence counter/sequence counter.srcs/constrs_1/new/sequence_counter_xdc.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+report_utilization -name utilization_1
+refresh_design
+close_sim

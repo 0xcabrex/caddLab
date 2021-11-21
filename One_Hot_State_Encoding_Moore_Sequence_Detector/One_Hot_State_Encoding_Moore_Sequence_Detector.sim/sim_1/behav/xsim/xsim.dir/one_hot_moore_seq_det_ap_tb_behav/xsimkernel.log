@@ -1,0 +1,7 @@
+Running: xsim.dir/one_hot_moore_seq_det_ap_tb_behav/xsimk.exe -simmode gui -wdb one_hot_moore_seq_det_ap_tb_behav.wdb -simrunnum 0 -socket 3918
+Design successfully loaded
+Design Loading Memory Usage: 7724 KB (Peak: 7724 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 8400 KB (Peak: 8400 KB)
+Simulation CPU Usage: 109 ms

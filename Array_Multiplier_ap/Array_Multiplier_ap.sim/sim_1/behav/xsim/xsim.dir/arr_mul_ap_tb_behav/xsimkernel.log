@@ -1,7 +1,7 @@
-Running: xsim.dir/arr_mul_ap_tb_behav/xsimk.exe -simmode gui -wdb arr_mul_ap_tb_behav.wdb -simrunnum 0 -socket 56414
+Running: xsim.dir/arr_mul_ap_tb_behav/xsimk.exe -simmode gui -wdb arr_mul_ap_tb_behav.wdb -simrunnum 0 -socket 3698
 Design successfully loaded
-Design Loading Memory Usage: 7200 KB (Peak: 7200 KB)
-Design Loading CPU Usage: 15 ms
+Design Loading Memory Usage: 7756 KB (Peak: 7756 KB)
+Design Loading CPU Usage: 46 ms
 Simulation completed
-Simulation Memory Usage: 7888 KB (Peak: 7888 KB)
-Simulation CPU Usage: 30 ms
+Simulation Memory Usage: 8460 KB (Peak: 8460 KB)
+Simulation CPU Usage: 46 ms

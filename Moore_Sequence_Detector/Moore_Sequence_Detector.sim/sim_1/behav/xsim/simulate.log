@@ -8,4 +8,4 @@ Time resolution is 1 ps
                   70rst=0 in_seq=1 out=0
                   80rst=0 in_seq=0 out=0
                   85rst=0 in_seq=0 out=1
-$finish called at time : 90 ns : File "D:/XILINX/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.srcs/sim_1/new/moore_seq_det_ap_tb.v" Line 45
+$finish called at time : 90 ns : File "C:/Users/asvam/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.srcs/sim_1/new/moore_seq_det_ap_tb.v" Line 45

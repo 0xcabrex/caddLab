@@ -21,10 +21,10 @@
 
 
 module one_hot_moore_seq_det_ap(
-    input rst,
-    input clk,
-    input in_seq,
-    output out_detect
+    input logic rst,
+    input logic clk,
+    input logic in_seq,
+    output logic out_detect
     );
 logic in_seq_reg;
 parameter s0=4'b0001,s1=4'b0010,s2=4'b0100,s3=4'b1000;

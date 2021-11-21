@@ -25,7 +25,7 @@ Repository of projects needed for the lab record.
 - Asynchronous and Synchronous Counters.
 - Accumulator.
 - Multiplier.
-- Moore and Miley Machines.
+- Moore and Mealy Machines.
 - Design of memory block (32x4 RAM).
 
 The names are in the order in which they have been written in the lab record.

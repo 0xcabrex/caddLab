@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1636898804">
   <File Type="PA-TCL" Name="mealy_seq_det_ap.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="mealy_seq_det_ap_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mealy_seq_det_ap_reports.tcl"/>
   <File Type="RDS-RDS" Name="mealy_seq_det_ap.vds"/>
   <File Type="RDS-UTIL" Name="mealy_seq_det_ap_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="mealy_seq_det_ap_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="mealy_seq_det_ap.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="mealy_seq_det_ap_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="mealy_seq_det_ap_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/mealy_seq_det_ap.sv">
@@ -44,9 +41,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

@@ -9,4 +9,4 @@ Time resolution is 1 ps
                   75rst=0 in_seq=1 out=1
                   80rst=0 in_seq=0 out=1
                   85rst=0 in_seq=0 out=0
-$finish called at time : 90 ns : File "D:/XILINX/vivado projects/Mealy_Sequence_Detector/Mealy_Sequence_Detector.srcs/sim_1/new/mealy_seq_det_ap_tb.v" Line 45
+$finish called at time : 90 ns : File "C:/Users/asvam/vivado projects/Mealy_Sequence_Detector/Mealy_Sequence_Detector.srcs/sim_1/new/mealy_seq_det_ap_tb.v" Line 45

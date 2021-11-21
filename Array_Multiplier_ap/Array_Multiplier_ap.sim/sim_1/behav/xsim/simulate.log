@@ -4,4 +4,4 @@ Time resolution is 1 ps
                   20 a=15, b15, p=225
                   30 a=11, b 0, p=  0
                   40 a= 0, b10, p=  0
-$finish called at time : 50 ns : File "D:/XILINX/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.srcs/sim_1/new/arr_mul_ap_tb.v" Line 50
+$finish called at time : 50 ns : File "C:/Users/asvam/vivado projects/Array_Multiplier_ap/Array_Multiplier_ap.srcs/sim_1/new/arr_mul_ap_tb.v" Line 50

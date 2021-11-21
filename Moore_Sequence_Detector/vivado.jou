@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 21 15:13:15 2021
+# Process ID: 5556
+# Current directory: C:/Users/asvam/vivado projects/Moore_Sequence_Detector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9020 C:\Users\asvam\vivado projects\Moore_Sequence_Detector\Moore_Sequence_Detector.xpr
+# Log file: C:/Users/asvam/vivado projects/Moore_Sequence_Detector/vivado.log
+# Journal file: C:/Users/asvam/vivado projects/Moore_Sequence_Detector\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/asvam/vivado projects/Moore_Sequence_Detector/Moore_Sequence_Detector.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source moore_seq_det_ap_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_sim
+close_project
+open_project {C:/Users/asvam/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source one_hot_moore_seq_det_ap_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_design
+open_run impl_1
+set_property IOSTANDARD lvcmos33 [get_ports [list clk]]
+set_property IOSTANDARD lvcmos33 [get_ports [list in_seq]]
+set_property IOSTANDARD lvcmos33 [get_ports [list out_detect]]
+set_property IOSTANDARD lvcmos33 [get_ports [list rst]]
+place_ports clk W5
+place_ports in_seq R2
+place_ports out_detect L1
+place_ports rst T1
+file mkdir {C:/Users/asvam/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.srcs/constrs_1/new}
+close [ open {C:/Users/asvam/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.srcs/constrs_1/new/one_hot_moore_seq_det_xdc.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/asvam/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.srcs/constrs_1/new/one_hot_moore_seq_det_xdc.xdc}}
+set_property target_constrs_file {C:/Users/asvam/vivado projects/One_Hot_State_Encoding_Moore_Sequence_Detector/One_Hot_State_Encoding_Moore_Sequence_Detector.srcs/constrs_1/new/one_hot_moore_seq_det_xdc.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+report_utilization -name utilization_1
+close_sim

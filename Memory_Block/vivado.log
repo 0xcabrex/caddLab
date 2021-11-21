@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 21 19:40:27 2021
+# Process ID: 20032
+# Current directory: C:/Users/asvam/vivado projects/Memory_Block
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16252 C:\Users\asvam\vivado projects\Memory_Block\Memory_Block.xpr
+# Log file: C:/Users/asvam/vivado projects/Memory_Block/vivado.log
+# Journal file: C:/Users/asvam/vivado projects/Memory_Block\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/asvam/vivado projects/Memory_Block/Memory_Block.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/asvam/vivado projects/Memory_Block/Memory_Block.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 1136.363 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'memory_block_tb'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/asvam/vivado projects/Memory_Block/Memory_Block.sim/sim_1/behav/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 21 19:41:58 2021...

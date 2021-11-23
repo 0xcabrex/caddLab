@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 22 09:45:42 2021
+# Process ID: 13840
+# Current directory: C:/Users/asvam/vivado projects/async_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17436 C:\Users\asvam\vivado projects\async_counter\async_counter.xpr
+# Log file: C:/Users/asvam/vivado projects/async_counter/vivado.log
+# Journal file: C:/Users/asvam/vivado projects/async_counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/asvam/vivado projects/async_counter/async_counter.xpr}
+update_compile_order -fileset sources_1

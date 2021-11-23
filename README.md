@@ -1,11 +1,13 @@
 # CADD Lab projects written using XILINX Vivado TOOL
 
-Repository of projects needed for the lab record.
+Repository of Vivado projects.
+Semester - 3
+Year - 2021
 
 ## Programming languages used
 
-- System Verilog
-- Verilog
+- System Verilog (for the design source)
+- Verilog (for the Test benches)
 
 ## Properties of the programming device used
 
@@ -28,7 +30,16 @@ Repository of projects needed for the lab record.
 - Moore and Mealy Machines.
 - Design of memory block (32x4 RAM).
 
-The names are in the order in which they have been written in the lab record.
+The names have been listed in the order with which they have been written in the lab record.
+
+
+## Location for the source code of the projects
+
+If the project name is `project_name`:
+- Design source: `project_name/project_name.srcs/sources_1/new`
+- Test Benches: `project_name/project_name.srcs/sim_1/new`
+- Constraint file: `project_name/project_name.srcs/constrs_1/new`
+
 
 The necessary printouts are present in the [printouts](https://github.com/0xcabrex/caddLab/tree/master/printouts) folder.
 

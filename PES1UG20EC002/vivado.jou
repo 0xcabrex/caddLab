@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 22 09:53:03 2021
+# Process ID: 12632
+# Current directory: C:/Users/asvam/vivado projects/PES1UG20EC002
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11848 C:\Users\asvam\vivado projects\PES1UG20EC002\PES1UG20EC002.xpr
+# Log file: C:/Users/asvam/vivado projects/PES1UG20EC002/vivado.log
+# Journal file: C:/Users/asvam/vivado projects/PES1UG20EC002\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/asvam/vivado projects/PES1UG20EC002/PES1UG20EC002.xpr}
+update_compile_order -fileset sources_1
